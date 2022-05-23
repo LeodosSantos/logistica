@@ -13,7 +13,7 @@ public class ClienteModel {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id; /* foi criado para o ID o generade haschcode and equals */
+	private Long id; /* foi criado para o ID o generade haschcode and equals */
 	
 	private String nome;
 	
